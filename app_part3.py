@@ -438,7 +438,7 @@ def render_page_content(pathname):
                 dbc.Col(
                         html.Div([
                         html.H4("Анализ региональной экономики России"),
-                    ], style={'textAlign': 'center'})
+                    ], style={'textAlign': 'left'})
                 )
             ]), 
             dbc.Row ([
@@ -453,8 +453,9 @@ def render_page_content(pathname):
             dbc.Row ([
                 dbc.Col(
                         html.Div([
+                        html.H2(""),
                         html.H4("Актуальные вопросы, решаемые дашбордом"),
-                    ], style={'textAlign': 'center'})
+                    ], style={'textAlign': 'left'})
                 )
             ]),
              dbc.Row ([
@@ -482,14 +483,15 @@ def render_page_content(pathname):
             dbc.Row ([
                 dbc.Col(
                         html.Div([
+                        html.H2(""),
                         html.H4("Как собирались данные"),
-                    ], style={'textAlign': 'center'})
+                    ], style={'textAlign': 'left'})
                 )
             ]),
             dbc.Row ([
                 dbc.Col(
                         html.Div([
-                        html.P("Сайт https://datasets-isc.ru/ предоставляет ценный набор данных, который может быть использован для создания информативного и актуального дашборда. Нами был взят датасет «Интерактивная статистика и интеллектуальная аналитика сбалансированности региональной экономики России на основе Больших данных и блокчейн – 2024» (https://datasets-isc.ru/data-2/747-data-set-interaktivnaya-statistika-i-intellektualnaya-analitika-sbalansirovannosti-regionalnoj-ekonomiki-rossii-na-osnove-bolshikh-dannykh-i-blokchejn-2021). В датасете объединена статистика по теме сбалансированности региональной экономики России за 2005-2023 гг., отражающая уровень и потенциал социально-экономического развития российских регионов. ", className="display-18"),                    
+                        html.P("Сайт https://datasets-isc.ru/ предоставляет ценный набор данных, который может быть использован для создания информативного и актуального дашборда. Нами был взят датасет «Интерактивная статистика и интеллектуальная аналитика сбалансированности региональной экономики России на основе Больших данных и блокчейн – 2024». В датасете объединена статистика по теме сбалансированности региональной экономики России за 2005-2023 гг., отражающая уровень и потенциал социально-экономического развития российских регионов. (https://datasets-isc.ru/data-2/747-data-set-interaktivnaya-statistika-i-intellektualnaya-analitika-sbalansirovannosti-regionalnoj-ekonomiki-rossii-na-osnove-bolshikh-dannykh-i-blokchejn-2021) ", className="display-18"),                    
                         ], style={'textAlign': 'left'})
                 )
             ]), 
@@ -497,28 +499,21 @@ def render_page_content(pathname):
                 dbc.Col(
                         html.Div([
                         html.H5("В датасете содержатся показатели, большинство из которых предоставлено Росстатом, вот ключевые из них:"),
-                        html.H6("ВВП:"),
-                        html.P("валовой внутренний продукт является одним из важнейших показателей экономического развития региона;", className="display-20"),
-                        html.H6("Воронки отсталости:"),
-                        html.P("рассчитанные на базе ВВП,  отражают собой механизм потери отдельными регионами возможностей для развития вследствие отставания во времени;", className="display-20"),
-                        html.H6("Доходы регионального бюджета:"),
-                        html.P("денежные поступления, складывающиеся из доходов от региональных налогов и сборов.", className="display-20"),
-                        html.H6("Расходы регионального бюджета:"),
-                        html.P("денежные средства, направляемые из бюджетного фонда на финансовое обеспечение выполняемых задач и функций региона.", className="display-20"),
-                        html.H6("Сальдо:"),
-                        html.P("сальдо регионального бюджета представляет собой соотношение между доходной и расходной частями бюджета;", className="display-20"),
-                        html.H6("Доля инновационно активных организаций:"),
-                        html.P("доля компаний, занимающихся инновациями;", className="display-20"),
-                        html.H6("Доля инновационных продуктов:"),
-                        html.P("доля инновационной продукции региона (товаров, услуг), созданной с использованием результатов интеллектуальной деятельности;", className="display-20"),
-                        html.H6("Инвестиции в основной капитал на душу населения:"),
-                        html.P("показывает объем инвестиций в основной капитал, что является индикатором будущего экономического роста.", className="display-20"),
+                        html.P("ВВП: валовой внутренний продукт является одним из важнейших показателей экономического развития региона;", className="display-20"),
+                        html.P("Воронки отсталости: рассчитанные на базе ВВП,  отражают собой механизм потери отдельными регионами возможностей для развития вследствие отставания во времени;", className="display-20"),
+                        html.P("Доходы регионального бюджета: денежные поступления, складывающиеся из доходов от региональных налогов и сборов.", className="display-20"),
+                        html.P("Расходы регионального бюджета: денежные средства, направляемые из бюджетного фонда на финансовое обеспечение выполняемых задач и функций региона.", className="display-20"),
+                        html.P("Сальдо: сальдо регионального бюджета представляет собой соотношение между доходной и расходной частями бюджета;", className="display-20"),
+                        html.P("Доля инновационно активных организаций: доля компаний, занимающихся инновациями;", className="display-20"),
+                        html.P("Доля инновационных продуктов: доля инновационной продукции региона (товаров, услуг), созданной с использованием результатов интеллектуальной деятельности;", className="display-20"),
+                        html.P("Инвестиции в основной капитал на душу населения: показывает объем инвестиций в основной капитал, что является индикатором будущего экономического роста.", className="display-20"),
                     ], style={'textAlign': 'left'})
                 )
             ]),
             dbc.Row ([
                 dbc.Col(
                         html.Div([
+                        html.H2(""),
                         html.H4("Подготовка данных"),
                         html.P("Для дальнейшего анализа данные были обработаны и подготовлены. С получившимся датасетом можно ознакомиться по ссылке: https://docs.google.com/spreadsheets/d/e/2PACX-1vRWse4Knyb73VWoIywsaDSMAbRmHnJKhYlfPqM7sUOdk9hlJam1kZIRSmIjqJbjZKMg-OfWP37HROJu/pubhtml.", className="display-18"),                    
                         ], style={'textAlign': 'left'})
@@ -527,11 +522,17 @@ def render_page_content(pathname):
             dbc.Row ([
                 dbc.Col(
                         html.Div([
+                        html.H4(""),
                         html.H4("Визуализация данных"),
-                        html.P("Код для визуализации данных был написан нами с использованием средств python. Полностью код можно посмотреть на GitHub (Макарова)(https://github.com/Anastas1aMakarova/Russian_Regional_Economy_Analysis) и GitHub (Калинина)(https://github.com/Kal1n1na/Russian_Regional_Economy_Analysis).", className="display-18"),                    
-                        html.H6("Полностью код можно посмотреть на GitHub"),
-                        html.P("(Макарова)(https://github.com/Anastas1aMakarova/Russian_Regional_Economy_Analysis)", className="display-18"),
-                        html.P("(Калинина)(https://github.com/Kal1n1na/Russian_Regional_Economy_Analysis).", className="display-18"),
+                    ], style={'textAlign': 'left'})
+                )
+            ]),
+            dbc.Row ([
+                dbc.Col(
+                        html.Div([                        
+                        html.P("Код для визуализации данных был написан нами с использованием средств python. Полностью код можно посмотреть на GitHub:", className="display-18"),                    
+                        html.P("(Макарова - https://github.com/Anastas1aMakarova/Russian_Regional_Economy_Analysis)", className="display-18"),
+                        html.P("(Калинина - https://github.com/Kal1n1na/Russian_Regional_Economy_Analysis).", className="display-18"),
                         ], style={'textAlign': 'left'})
                 )
             ]),  
