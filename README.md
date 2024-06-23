@@ -52,7 +52,7 @@
 
 1. Клонирование репозитория 
 
-```git clone ```
+```git clone https://github.com/Kal1n1na/Russian_Regional_Economy_Analysis.git```
 
 2. Переход в директорию Russian_Regional_Economy_Analysis
 
