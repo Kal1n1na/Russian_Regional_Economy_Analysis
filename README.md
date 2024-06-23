@@ -48,7 +48,7 @@
 
 <!--Установка-->
 ## Установка 
-У вас должны быть установлены (https://github.com/Anastas1aMakarova/Russian_Regional_Economy_Analysis)
+У вас должны быть установлены (https://github.com/Kal1n1na/Russian_Regional_Economy_Analysis)
 
 1. Клонирование репозитория 
 
