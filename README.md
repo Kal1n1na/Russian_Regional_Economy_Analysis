@@ -95,4 +95,4 @@
 ```pip install dash-bootstrap-components```
 
 ## Результат
-Самостоятельно опробовать и изучить работу можно по этой ссылке: [**Проект**](https://anastasiamakarovakalininajulia.pythonanywhere.com/)
+Самостоятельно исследовать и ознакомиться с проектом на практике можно [**по ссылке:**](https://anastasiamakarovakalininajulia.pythonanywhere.com/)
