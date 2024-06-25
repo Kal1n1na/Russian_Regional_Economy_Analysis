@@ -1,4 +1,4 @@
-﻿Region;cartodb_id;Okrug;Year;VVP;Glubina_voronki;Dolya_innovatsionno_aktivnykh_organizatsiy;Dolya_innovatsionnykh_produktov;Dokhody_regionalnogo_byudzheta;Raskhody_regionalnogo_byudzheta;Investitsii_v_osnovnoy_kapital;Saldirovanniy_finansoviy_rezultat_deyatelnosti_predpriyatiy;Saldo_regionalnogo_byudzheta;Year_etalon
+﻿Region;cartodb_id;Okrug;Year;ВВП;Глубина воронки;Доля инновационно активных организации;Доля инновационных продуктов;Доходы регионального бюджета;Расходы регионального бюджета;Инвестиции в основной капитал на душу населения;Сальдированный финансовый результат деятельности предприятия;Сальдо регионального бюджета;Год эталона
 Алтайский край;17;Сибирский федеральный округ;2005;538124;4;101;64;293978;283013;8465;-786;10965;2001
 Алтайский край;17;Сибирский федеральный округ;2006;686107;3;91;72;358898;349648;11560;-1727;9250;2003
 Алтайский край;17;Сибирский федеральный округ;2007;888605;3;89;36;470867;46335;16950;10520;424532;2004
